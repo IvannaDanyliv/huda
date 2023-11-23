@@ -19,6 +19,7 @@ p {
 .katalog:hover{
   border: 10px solid rgb(14, 28, 66);
   transition: 2s;
+  opacity:1
 }
 h1:hover{
   font-size: 50px;
@@ -44,6 +45,9 @@ a{
 body{
    background-image:linear-gradient(#ffa500,#800080);
    transition: 10s linear;
+}
+.katalog{
+  opacity:0.3
 }
 a:hover{
   background-color: blueviolet;
